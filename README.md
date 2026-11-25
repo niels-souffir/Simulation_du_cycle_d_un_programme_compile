@@ -59,6 +59,21 @@ Le programme génère automatiquement le fichier `hexa.txt` contenant les instru
 
 La description détaillée du projet, les spécifications de la machine virtuelle et le jeu d'instructions sont disponibles dans le fichier [description_projet.pdf](description_projet.pdf).
 
+## Structure du projet
+
+```text
+.
+├── main.c                            # Point d'entrée du programme
+├── fichier_traduction.c              # Traduction des instructions
+├── fichier_execution.c               # Exécution des instructions
+├── header_traduction.h               # En-tête du module de traduction
+├── header_execution.h                # En-tête du module d'exécution
+├── hexa.txt                          # Instructions au format hexadécimal
+├── description_projet.pdf            # Énoncé et description du projet
+├── présentation_soutenance_projet.pdf # Support de présentation orale
+└── README.md                         # Documentation du projet
+```
+
 
 ## Contexte académique
 
