@@ -62,7 +62,7 @@ La description détaillée du projet, les spécifications de la machine virtuell
 ## Structure du projet
 
 ```text
-.
+
 ├── main.c                            # Point d'entrée du programme
 ├── fichier_traduction.c              # Traduction des instructions
 ├── fichier_execution.c               # Exécution des instructions
